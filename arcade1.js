@@ -1,6 +1,10 @@
 //write a function that returns the sum of two numbers: 
 var assert = require('assert');
 
+//solution
+function add(param1, param2){
+    return(param1 + param2);
+}
 
 //Mocha test
 describe('add', function() {
@@ -12,9 +16,7 @@ describe('add', function() {
     });
 });
 
-function add(param1, param2){
-    return(param1 + param2);
-}
+
 
 add(3, 4);
 add(10, 3487);
