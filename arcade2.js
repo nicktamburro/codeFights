@@ -15,6 +15,8 @@ function centuryFromYear(year) {
     }
     
 }
+
+module.exports = centuryFromYear;
 //---------------------------------------------------------------------------------
 //MOCHA TEST MOVED TO TEST FOLDER!!
 /*describe('centuryFromYear', function() {
