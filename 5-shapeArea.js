@@ -23,9 +23,11 @@ for (i = 1; i < n; i++){
     if (countDown == 1){
         count++;
     }
-    console.log(countDown);
+    
     
 }
 
 return count;
 }
+
+module.exports = shapeArea;
