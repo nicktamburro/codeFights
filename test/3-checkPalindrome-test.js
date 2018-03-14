@@ -1,5 +1,5 @@
 var assert = require('assert');
-var checkPalindrome = require('../arcade3.js');
+var checkPalindrome = require('../3-checkPalindrome.js');
 
 describe('checkPalindrome', function() {
     it('checks to see if a string is a palindrome', function() {

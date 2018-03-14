@@ -1,5 +1,5 @@
 var assert = require('assert');
-var centuryFromYear = require('../arcade2.js');
+var centuryFromYear = require('../2-centuryFromYear.js');
 
 describe('centuryFromYear', function() {
     it('when given a year, it returns the Century', function() {

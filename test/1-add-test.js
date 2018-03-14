@@ -1,5 +1,5 @@
 var assert = require('assert');
-var add = require('../arcade1.js');
+var add = require('../1-add.js');
 
 //TODO, error with assert: "ReferenceError: assert is not defined"
 

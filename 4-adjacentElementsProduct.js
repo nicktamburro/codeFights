@@ -15,3 +15,5 @@ let product = -100;
     }  
     return product;  
 }
+
+module.exports = adjacentElementsProduct;
