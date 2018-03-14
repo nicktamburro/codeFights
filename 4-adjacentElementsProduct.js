@@ -14,6 +14,10 @@ let product = -100;
         }   
     }  
     return product;  
+    console.log("hi");
 }
+
+let inputArray1 = [4, 20, 15, 84];
+adjacentElementsProduct(inputArray1);
 
 module.exports = adjacentElementsProduct;
