@@ -6,3 +6,5 @@ function checkPalindrome(inputString){
 
     return (inputString === backwardsString);
 }
+
+module.exports = checkPalindrome; 
