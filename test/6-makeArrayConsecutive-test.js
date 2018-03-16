@@ -2,6 +2,7 @@
 // it adds up the missing spaces for numbers
 
 //so like, [1, 2, 4, 5, 7, 8, 10] would be 3... I think I'm skipping some steps...
+//one test isn't passing, array [4,5,6], which makes no sense.... 
 
 var assert = require('assert');
 var makeArrayConsecutive = require('../6-makeArrayConsecutive.js');
