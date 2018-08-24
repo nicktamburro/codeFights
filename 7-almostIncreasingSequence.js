@@ -1,5 +1,6 @@
 //better... now only failing [1, 2, 3, 4, 3, 6] (getting 2 = false, should return true)
 //and [3, 5, 67, 98, 3] (getting 2 = false, should return true)
+//yeah, no I'm shooting myself in the foot still. Well, okay for now. 
 
 function almostIncreasingSequence(sequence) {
 let wrong = 0;
