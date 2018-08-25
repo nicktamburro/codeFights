@@ -3,7 +3,9 @@
 
 function adjacentElementsProduct(inputArray) {
  
-let product = -100;
+//let product = -100;
+//NO this is dumb... here:
+let product = inputArray[0] * inputArray[1];
     
     for (i = 0 ; i < inputArray.length; i++){
         
@@ -14,7 +16,6 @@ let product = -100;
         }   
     }  
     return product;  
-    console.log("hi");
 }
 
 let inputArray1 = [4, 20, 15, 84];
