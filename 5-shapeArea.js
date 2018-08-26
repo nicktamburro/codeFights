@@ -18,6 +18,7 @@ let count = 0;
     }
     
 for (i = 1; i < n; i++){
+	//important to have countdown-1 in parens
     count += (countDown-1) * 4;
     countDown--;
     if (countDown == 1){
