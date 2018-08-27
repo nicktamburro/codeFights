@@ -7,4 +7,4 @@ int makeArrayConsecutive2(int[] statues) {
         count+= (statues[i+1] - statues[i]) - 1;
     }
     return count;
-}
+}c 
