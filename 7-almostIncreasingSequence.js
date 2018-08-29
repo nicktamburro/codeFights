@@ -21,8 +21,10 @@ function almostIncreasingSequence(sequence) {
     
     console.log(wrong);
     if(wrong > 1){
+        console.log("false");
         return false;
     }else if (wrong <= 1){
+        console.log("true");
         return true;
     }
     
@@ -30,7 +32,11 @@ function almostIncreasingSequence(sequence) {
     
 }
 
+let test1 = [1, 2, 2, 3, 3, 4];
+let test2 = [1, 2, 3, 3, 4];
 
+almostIncreasingSequence(test1);
+almostIncreasingSequence(test2);
 
 /*function almostIncreasingSequence(sequence) {
 let wrong = 0;
