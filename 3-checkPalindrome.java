@@ -17,3 +17,15 @@ boolean checkPalindrome(String inputString) {
    }
         return true;
 }
+
+String reverseString(String inputString){
+
+		for(int i=0; i<inputString.length(); i++){
+			char t = charAt(i);
+			charAt(i) = inputString.charAt(inputString.length() - i - 1);
+			inputString.charAt(inputString.length() - i - 1) = t;
+		}
+
+		return inputString;
+
+}
