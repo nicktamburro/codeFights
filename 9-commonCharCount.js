@@ -9,20 +9,26 @@ function commonCharacterCount(s1, s2) {
 
 //loop through first array
     for( let i = 0; i < s1.length; i++ ) {
-    	//and second array
+    	//then loop entired second array, just comparing to one index in s1
         for( let j = 0; j < s2.length; j++ ) {
-            // if it's the same character
+            // if it's the same character...
             if ( s1[i] === s2[j] ) {
 
-                // first, take out this char because it's already been counted... 
+                // ...first, take out this char because it's already been counted... 
                 s2.splice(j, 1);
 
-                // increment total characters found
+                // then increment total characters found
                 commonCharacters++;
+                //then we break back to the first loop
                 break;
             }
         }
     }
 
-    return commonCharacters;
+    console.log(commonCharacters);
 }
+
+let s1 = "asdfasdfwer";
+let s2 = "werwerasdf";
+
+commonCharacterCount(s1, s2);

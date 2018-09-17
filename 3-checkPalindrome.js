@@ -8,3 +8,5 @@ function checkPalindrome(inputString){
 }
 
 module.exports = checkPalindrome; 
+
+string checkPalindrome()
